@@ -36,8 +36,8 @@ export default function Projects() {
             </div>
 
             <div className="links">
-              <a href={p.githubUrl} target="_blank">GitHub</a>
-              <a href={p.liveUrl} target="_blank">Live</a>
+              <a href={p.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
+              <a href={p.liveUrl} target="_blank" rel="noreferrer">Live</a>
             </div>
 
           </div>

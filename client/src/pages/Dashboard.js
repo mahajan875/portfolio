@@ -283,13 +283,13 @@ export default function Dashboard() {
 
                     <div>
                       {p.githubUrl && (
-                        <a href={p.githubUrl} target="_blank">
+                        <a href={p.githubUrl} target="_blank" rel="noreferrer">
                           <button>GitHub</button>
                         </a>
                       )}
 
                       {p.liveUrl && (
-                        <a href={p.liveUrl} target="_blank">
+                        <a href={p.liveUrl} target="_blank" rel="noreferrer">
                           <button>Live</button>
                         </a>
                       )}
